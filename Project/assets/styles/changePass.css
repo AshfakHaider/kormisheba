@@ -1,0 +1,75 @@
+.main_change_pass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .change_pass-form{
+    width: 600px;
+    height: 100vh;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .change_pass-form-textFields{
+    padding: 15px 20px;
+    margin-top:10vh;
+  }
+  
+  .change_pass-label{
+    color: #616267;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .change_pass-input{
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .change_pass-input:focus {
+    border-color: #f08725;
+    box-shadow: 0 0 5px #f08725;
+  }
+  
+  
+  .change_pass-form-textFields input[type="submit"] {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border: 1px solid #f08725;
+    background-color: rgb(255, 255, 255);
+    color: #f08725;
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+  }
+  
+  .change_pass-form-textFields input[type="submit"]:hover{
+    background-color: #f08725;
+    color: rgb(255, 255, 255);
+  }
+
+.error{
+color: #af4242;
+background-color: #fde8ec;
+width: 100%;
+padding: 7px;
+display: none;
+margin: 10px 0px;
+font-size: 14px;
+border-radius: 3px;
+}
+.success{
+color: #42af6c;
+background-color: #e8fdf2;
+width: 100%;
+padding: 7px;
+display: none;
+margin: 10px 0px;
+font-size: 14px;
+border-radius: 3px;
+}

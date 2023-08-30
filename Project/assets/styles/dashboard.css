@@ -1,0 +1,61 @@
+
+.main_dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.dashboard {
+    border-collapse: collapse;
+    width: 400px;
+}
+
+.dashboard th,
+.dashboard td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.dashboard th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.dashboard tr:nth-child(even) {
+    background-color: #e3e3e3;
+}
+
+.dashboard tr:not(:first-child):hover {
+    background-color: #ececec;
+    cursor: pointer;
+  }
+
+.edit-service {
+display: inline-block;
+padding: 10px 20px;
+background-color: #0088a9;
+color: #ffffff;
+text-decoration: none;
+border-radius: 5px;
+}
+  
+.edit-service:hover {
+background-color: #006677;
+}
+
+.orderSub input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    vertical-align: middle;
+    margin-right: 8px;
+    position: relative;
+}
+
+.orderSub input[type="submit"] {
+    width: 16px;
+  }

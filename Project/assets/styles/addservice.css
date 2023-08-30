@@ -1,0 +1,45 @@
+.addservice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .addservice-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+  }
+  
+  form .addservice-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  form .addservice-input[type="text"],
+  form textarea,
+  form .addservice-input[type="number"],
+  form .addservice-input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form .addservice-input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  

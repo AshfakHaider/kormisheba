@@ -1,0 +1,8 @@
+.Main-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.showProducts{
+    width: 90%;
+}

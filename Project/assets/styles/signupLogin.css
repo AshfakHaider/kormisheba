@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.signuplogin-body {
+  margin-top: 40px;
+  background-color: #8ec1d1;
+  font-family: "Montserrat", sans-serif;
+}
+
+.signup-box {
+  width: 360px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.login-box {
+  width: 360px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.signuplogin-h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+}
+input[type="submit"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: rgba(0,136,169,1);
+  color: white;
+  font-size: 18px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color: rgba(0,136,169,0.8);
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+form select {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  vertical-align: middle;
+  margin-right: 8px;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #0088a9; 
+  border-color: #0088a9;
+}
+
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.para-2 a {
+  color: rgb(0, 169, 118);
+  transition: all 0.3s ease 0s;
+}
+
+.para-2 a:hover {
+  color: rgba(0,136,169,0.8);
+}
+
+.loginBtn{
+  margin-bottom: 20px;
+}
+
+.error{
+  color: #af4242;
+  background-color: #fde8ec;
+  width: 100%;
+  padding: 7px;
+  display: none;
+  margin: 10px 0px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.success{
+  color: #42af6c;
+  background-color: #e8fdf2;
+  width: 100%;
+  padding: 7px;
+  display: none;
+  margin: 10px 0px;
+  font-size: 14px;
+  border-radius: 3px;
+}

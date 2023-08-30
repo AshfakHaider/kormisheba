@@ -1,0 +1,5 @@
+1.KormiSheba: A platform for workers with a mix of fiverr and shebaxyz
+2.Shongit: A platform for musicians to upload,share and find different genre of music.
+3.Self-Learn: An E-Learning Platform like datacamp, udemy etc.
+4.Job Board: A platform for posting of jobs, requirements and hiring.
+5.Kotha: A discord and omegle type chat room system.
